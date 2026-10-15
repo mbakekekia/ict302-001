@@ -1,4 +1,13 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
 title = 'Group One'
-theme = 'ananke'
+theme = 'papermod'
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Tags'
+    pageRef = '/tags'
+    weight = 20
