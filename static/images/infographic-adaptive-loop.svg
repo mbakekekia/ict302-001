@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10z" fill="#1d5fa8"/>
+    </marker>
+  </defs>
+  <rect width="800" height="1000" fill="#ffffff"/>
+  <rect width="800" height="150" fill="#1d5fa8"/>
+  <text x="400" y="70" text-anchor="middle" font-size="36" font-weight="800" fill="#ffffff">How adaptive learning works</text>
+  <text x="400" y="112" text-anchor="middle" font-size="18" fill="#dbe8f7">One lesson, a different path for every student</text>
+
+  <!-- loop -->
+  <circle cx="400" cy="440" r="200" fill="none" stroke="#d9e2ee" stroke-width="3" stroke-dasharray="8 8"/>
+  <path d="M470 252 A200 200 0 0 1 586 372" fill="none" stroke="#1d5fa8" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M586 510 A200 200 0 0 1 470 628" fill="none" stroke="#1d5fa8" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M330 628 A200 200 0 0 1 214 510" fill="none" stroke="#1d5fa8" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M214 372 A200 200 0 0 1 330 252" fill="none" stroke="#1d5fa8" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g text-anchor="middle">
+    <circle cx="400" cy="240" r="62" fill="#1d5fa8"/>
+    <text x="400" y="234" font-size="34" font-weight="800" fill="#ffffff">1</text>
+    <text x="400" y="262" font-size="16" font-weight="700" fill="#ffffff">Check</text>
+
+    <circle cx="600" cy="440" r="62" fill="#2f9e6a"/>
+    <text x="600" y="434" font-size="34" font-weight="800" fill="#ffffff">2</text>
+    <text x="600" y="462" font-size="16" font-weight="700" fill="#ffffff">Diagnose</text>
+
+    <circle cx="400" cy="640" r="62" fill="#e8833a"/>
+    <text x="400" y="634" font-size="34" font-weight="800" fill="#ffffff">3</text>
+    <text x="400" y="662" font-size="16" font-weight="700" fill="#ffffff">Adjust</text>
+
+    <circle cx="200" cy="440" r="62" fill="#7a5bb5"/>
+    <text x="200" y="434" font-size="34" font-weight="800" fill="#ffffff">4</text>
+    <text x="200" y="462" font-size="16" font-weight="700" fill="#ffffff">Explain</text>
+
+    <text x="400" y="430" font-size="20" font-weight="800" fill="#1e2a3a">The student</text>
+    <text x="400" y="456" font-size="20" font-weight="800" fill="#1e2a3a">is the center</text>
+  </g>
+
+  <!-- step descriptions -->
+  <g font-size="16" fill="#1e2a3a">
+    <rect x="40" y="740" width="350" height="104" rx="12" fill="#e8f0fa"/>
+    <text x="60" y="772" font-weight="800" fill="#1d5fa8">1. Check</text>
+    <text x="60" y="798">A short question shows what the</text>
+    <text x="60" y="820">student already knows.</text>
+
+    <rect x="410" y="740" width="350" height="104" rx="12" fill="#e9f7ef"/>
+    <text x="430" y="772" font-weight="800" fill="#2f9e6a">2. Diagnose</text>
+    <text x="430" y="798">The program spots the exact skill</text>
+    <text x="430" y="820">or misconception behind the answer.</text>
+
+    <rect x="40" y="860" width="350" height="104" rx="12" fill="#fff6ee"/>
+    <text x="60" y="892" font-weight="800" fill="#c2621c">3. Adjust</text>
+    <text x="60" y="918">The next task gets easier, harder,</text>
+    <text x="60" y="940">or switches to a worked example.</text>
+
+    <rect x="410" y="860" width="350" height="104" rx="12" fill="#f1ecf9"/>
+    <text x="430" y="892" font-weight="800" fill="#7a5bb5">4. Explain</text>
+    <text x="430" y="918">The student explains their thinking,</text>
+    <text x="430" y="940">so learning sticks and stays honest.</text>
+  </g>
+</svg>

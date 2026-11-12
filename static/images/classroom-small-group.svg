@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="640" height="400" fill="#e9f7ef"/>
+  <rect x="0" y="0" width="640" height="230" fill="#f3f7f2"/>
+  <!-- window -->
+  <rect x="430" y="40" width="150" height="110" rx="6" fill="#cfe6f7" stroke="#ffffff" stroke-width="8"/>
+  <line x1="505" y1="40" x2="505" y2="150" stroke="#ffffff" stroke-width="6"/>
+  <!-- poster -->
+  <rect x="60" y="44" width="120" height="90" rx="6" fill="#ffffff" stroke="#c9d6e6"/>
+  <text x="76" y="74" font-size="14" fill="#1d5fa8" font-weight="700">Small group</text>
+  <text x="76" y="96" font-size="12" fill="#5b6b80">Scaling recipes</text>
+  <text x="76" y="116" font-size="12" fill="#5b6b80">10 minutes</text>
+  <!-- round table -->
+  <ellipse cx="320" cy="300" rx="220" ry="58" fill="#c98d55"/>
+  <ellipse cx="320" cy="292" rx="220" ry="54" fill="#dca46b"/>
+  <!-- teacher -->
+  <circle cx="320" cy="150" r="32" fill="#c68a62"/>
+  <path d="M286 150 q0 -46 34 -46 q34 0 34 46 q-4 -20 -34 -24 q-30 4 -34 24z" fill="#3b2a20"/>
+  <path d="M264 246 q0 -62 56 -62 q56 0 56 62z" fill="#2f6b5a"/>
+  <rect x="290" y="226" width="60" height="40" rx="4" fill="#1e2a3a"/>
+  <rect x="295" y="230" width="50" height="30" rx="2" fill="#ffe7cf"/>
+  <!-- students -->
+  <circle cx="160" cy="214" r="26" fill="#f1c9a5"/>
+  <path d="M134 210 q0 -38 26 -38 q26 0 26 38 q-8 -18 -26 -18 q-18 0 -26 18z" fill="#6b3f22"/>
+  <path d="M116 286 q0 -50 44 -50 q44 0 44 50z" fill="#e8833a"/>
+  <circle cx="480" cy="214" r="26" fill="#7a4a2e"/>
+  <path d="M454 206 q26 -40 52 0 q-4 -16 -26 -18 q-22 2 -26 18z" fill="#1d1410"/>
+  <path d="M436 286 q0 -50 44 -50 q44 0 44 50z" fill="#1d5fa8"/>
+  <circle cx="230" cy="250" r="24" fill="#e0b08a"/>
+  <path d="M206 248 q0 -36 24 -36 q24 0 24 36 q-6 -16 -24 -16 q-18 0 -24 16z" fill="#2b1d16"/>
+  <path d="M190 316 q0 -44 40 -44 q40 0 40 44z" fill="#9b59b6"/>
+  <circle cx="410" cy="250" r="24" fill="#f6d2b4"/>
+  <path d="M386 252 q2 -42 24 -40 q24 0 24 40 q-6 -20 -24 -20 q-18 0 -24 20z" fill="#d6a03c"/>
+  <path d="M370 316 q0 -44 40 -44 q40 0 40 44z" fill="#2f9e6a"/>
+  <!-- papers -->
+  <rect x="250" y="292" width="40" height="26" fill="#ffffff" transform="rotate(-10 270 305)"/>
+  <rect x="350" y="292" width="40" height="26" fill="#ffffff" transform="rotate(8 370 305)"/>
+</svg>

@@ -1,0 +1,6 @@
+{{- /* Custom: author names link to their page in the "authors" taxonomy. */ -}}
+{{- with .GetTerms "authors" }}
+    {{- $links := slice }}
+    {{- range . }}{{ $links = $links | append (printf "<a class=\"author-link\" href=\"%s\">%s</a>" .RelPermalink .LinkTitle) }}{{ end }}
+    {{- printf "By %s" (delimit $links ", " " and ") | safeHTML }}
+{{- end -}}

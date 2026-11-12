@@ -1,0 +1,44 @@
+{{- define "main" }}
+{{/* Layout for the "infographic" content type: big graphic first, takeaways and sources after. */}}
+<article class="post-single infographic">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <p class="type-label">Infographic</p>
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{- with .Description }}<div class="post-description">{{ . }}</div>{{ end }}
+    <div class="post-meta">{{ partial "post_meta.html" . }}</div>
+  </header>
+
+  {{- with .Params.graphic }}
+  <figure class="infographic-figure">
+    <a href="{{ .src | relURL }}" target="_blank" rel="noopener">
+      <img src="{{ .src | relURL }}" alt="{{ .alt }}">
+    </a>
+    <figcaption>Click the graphic to open it full size.</figcaption>
+  </figure>
+  {{- end }}
+
+  <div class="post-content md-content">
+    {{ .Content }}
+  </div>
+
+  {{- with .Params.sources }}
+  <section class="infographic-sources">
+    <h2>Sources</h2>
+    <ol>
+      {{- range . }}
+      <li>{{ if .url }}<a href="{{ .url }}" rel="noopener" target="_blank">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</li>
+      {{- end }}
+    </ol>
+  </section>
+  {{- end }}
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      {{- range ($.GetTerms "tags") }}
+      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+  </footer>
+</article>
+{{- end }}

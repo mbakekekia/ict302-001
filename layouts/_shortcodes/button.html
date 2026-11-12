@@ -1,0 +1,4 @@
+{{- /* Usage: {{< button href="/signup/pricing/" >}}See pricing{{< /button >}}  Add style="ghost" for an outline button. */ -}}
+{{- $href := .Get "href" }}
+{{- if hasPrefix $href "/" }}{{ $href = $href | relURL }}{{ end }}
+<a class="btn {{ if eq (.Get "style") "ghost" }}btn-ghost{{ else }}btn-primary{{ end }}" href="{{ $href }}">{{ .Inner | markdownify }}</a>

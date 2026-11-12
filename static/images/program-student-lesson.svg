@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f4f7fb"/>
+  <!-- window -->
+  <rect x="24" y="24" width="592" height="392" rx="14" fill="#ffffff" stroke="#d9e2ee"/>
+  <rect x="24" y="24" width="592" height="44" rx="14" fill="#1d5fa8"/>
+  <rect x="24" y="54" width="592" height="14" fill="#1d5fa8"/>
+  <circle cx="48" cy="46" r="6" fill="#ffffff" opacity=".6"/>
+  <circle cx="68" cy="46" r="6" fill="#ffffff" opacity=".6"/>
+  <circle cx="88" cy="46" r="6" fill="#ffffff" opacity=".6"/>
+  <text x="112" y="51" fill="#ffffff" font-size="15" font-weight="700">AI + Education Program</text>
+  <text x="520" y="51" fill="#ffffff" font-size="13">Grade 7 Math</text>
+  <!-- sidebar -->
+  <rect x="24" y="68" width="150" height="348" fill="#eef3fa"/>
+  <text x="40" y="98" font-size="12" fill="#5b6b80" font-weight="700">TODAY'S PATH</text>
+  <g font-size="13" fill="#1e2a3a">
+    <circle cx="46" cy="122" r="8" fill="#2f9e6a"/><text x="60" y="126">Warm-up</text>
+    <circle cx="46" cy="152" r="8" fill="#2f9e6a"/><text x="60" y="156">Ratios review</text>
+    <circle cx="46" cy="182" r="8" fill="#1d5fa8"/><text x="60" y="186" font-weight="700">Unit rates</text>
+    <circle cx="46" cy="212" r="8" fill="#ffffff" stroke="#9fb1c7" stroke-width="2"/><text x="60" y="216" fill="#7a8899">Word problems</text>
+    <circle cx="46" cy="242" r="8" fill="#ffffff" stroke="#9fb1c7" stroke-width="2"/><text x="60" y="246" fill="#7a8899">Exit ticket</text>
+  </g>
+  <text x="40" y="300" font-size="12" fill="#5b6b80" font-weight="700">MASTERY</text>
+  <rect x="40" y="310" width="118" height="10" rx="5" fill="#d9e2ee"/>
+  <rect x="40" y="310" width="78" height="10" rx="5" fill="#2f9e6a"/>
+  <text x="40" y="340" font-size="12" fill="#5b6b80">66% of unit complete</text>
+  <!-- question -->
+  <text x="198" y="104" font-size="12" fill="#5b6b80" font-weight="700">QUESTION 4 OF 8</text>
+  <text x="198" y="132" font-size="17" fill="#1e2a3a" font-weight="700">A car travels 150 miles in 3 hours.</text>
+  <text x="198" y="156" font-size="17" fill="#1e2a3a" font-weight="700">What is its speed in miles per hour?</text>
+  <g font-size="15" fill="#1e2a3a">
+    <rect x="198" y="176" width="190" height="40" rx="8" fill="#ffffff" stroke="#d9e2ee"/><text x="214" y="201">A. 45 mph</text>
+    <rect x="402" y="176" width="190" height="40" rx="8" fill="#e8f0fa" stroke="#1d5fa8" stroke-width="2"/><text x="418" y="201" font-weight="700">B. 50 mph</text>
+    <rect x="198" y="226" width="190" height="40" rx="8" fill="#ffffff" stroke="#d9e2ee"/><text x="214" y="251">C. 153 mph</text>
+    <rect x="402" y="226" width="190" height="40" rx="8" fill="#ffffff" stroke="#d9e2ee"/><text x="418" y="251">D. 450 mph</text>
+  </g>
+  <!-- tutor hint -->
+  <rect x="198" y="286" width="394" height="80" rx="10" fill="#fff6ee" stroke="#f0c39a"/>
+  <circle cx="224" cy="312" r="14" fill="#e8833a"/>
+  <text x="217" y="317" font-size="14" fill="#ffffff" font-weight="700">AI</text>
+  <text x="248" y="309" font-size="13" fill="#7a4a1f" font-weight="700">Tutor hint</text>
+  <text x="248" y="330" font-size="13" fill="#5c3a19">Nice! Can you explain why you divided 150 by 3?</text>
+  <text x="248" y="350" font-size="13" fill="#5c3a19">Type your reasoning to finish the step.</text>
+  <rect x="462" y="378" width="130" height="28" rx="14" fill="#1d5fa8"/>
+  <text x="527" y="397" text-anchor="middle" font-size="13" fill="#ffffff" font-weight="700">Check answer</text>
+</svg>

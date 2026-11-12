@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="640" height="400" fill="#eef3fa"/>
+  <!-- wall and board -->
+  <rect x="0" y="0" width="640" height="250" fill="#f7f1e7"/>
+  <rect x="150" y="34" width="340" height="140" rx="6" fill="#2f5a4a" stroke="#8a6a44" stroke-width="8"/>
+  <text x="178" y="80" font-size="20" fill="#e7f2ec" font-family="Comic Sans MS, Segoe Print, cursive">Unit rate = total / units</text>
+  <text x="178" y="116" font-size="18" fill="#e7f2ec" font-family="Comic Sans MS, Segoe Print, cursive">150 mi / 3 h = 50 mph</text>
+  <text x="178" y="150" font-size="16" fill="#bfe0cf" font-family="Comic Sans MS, Segoe Print, cursive">Explain your reasoning!</text>
+  <!-- floor -->
+  <rect x="0" y="250" width="640" height="150" fill="#d9c3a5"/>
+  <!-- desk -->
+  <rect x="110" y="262" width="420" height="22" rx="4" fill="#a7774a"/>
+  <rect x="130" y="284" width="14" height="90" fill="#8a6a44"/>
+  <rect x="496" y="284" width="14" height="90" fill="#8a6a44"/>
+  <!-- student 1 -->
+  <circle cx="220" cy="186" r="30" fill="#8d5a3b"/>
+  <path d="M190 176 q30 -40 60 0 q-6 -22 -30 -24 q-24 2 -30 24z" fill="#2b1d16"/>
+  <path d="M170 262 q0 -50 50 -50 q50 0 50 50z" fill="#e8833a"/>
+  <!-- student 2 -->
+  <circle cx="420" cy="186" r="30" fill="#f1c9a5"/>
+  <path d="M388 186 q2 -48 34 -46 q34 0 32 46 q-8 -26 -32 -26 q-26 0 -34 26z" fill="#c9862f"/>
+  <path d="M370 262 q0 -50 50 -50 q50 0 50 50z" fill="#1d5fa8"/>
+  <!-- tablets -->
+  <rect x="196" y="236" width="76" height="30" rx="4" fill="#1e2a3a" transform="rotate(-8 234 251)"/>
+  <rect x="202" y="240" width="64" height="20" rx="2" fill="#9ec3ee" transform="rotate(-8 234 251)"/>
+  <rect x="368" y="236" width="76" height="30" rx="4" fill="#1e2a3a" transform="rotate(8 406 251)"/>
+  <rect x="374" y="240" width="64" height="20" rx="2" fill="#9ec3ee" transform="rotate(8 406 251)"/>
+  <!-- speech bubble -->
+  <rect x="270" y="196" width="104" height="36" rx="12" fill="#ffffff" stroke="#c9d6e6"/>
+  <path d="M296 232 l-8 12 l18 -12z" fill="#ffffff"/>
+  <text x="282" y="219" font-size="13" fill="#1e2a3a" font-weight="700">Why 50 mph?</text>
+</svg>

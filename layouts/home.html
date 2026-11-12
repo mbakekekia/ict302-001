@@ -1,0 +1,87 @@
+{{- define "main" }}
+{{/* Custom home page. Text, images and research snippets come from content/_index.md front matter. */}}
+
+<section class="hero">
+  <div class="hero-text">
+    {{- with .Params.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+    <h1>{{ .Params.heroTitle | default site.Title }}</h1>
+    {{- with .Params.heroText }}<p class="hero-lead">{{ . | markdownify }}</p>{{ end }}
+    <div class="hero-buttons">
+      <a class="btn btn-primary" href="{{ "signup/pricing/" | relURL }}">See plans and pricing</a>
+      <a class="btn btn-ghost" href="{{ "usage/how-it-works/" | relURL }}">How it works</a>
+    </div>
+  </div>
+  {{- with .Params.heroImage }}
+  <figure class="hero-image">
+    <img src="{{ .src | relURL }}" alt="{{ .alt }}" width="640" height="440">
+  </figure>
+  {{- end }}
+</section>
+
+{{- with .Params.snippets }}
+<section class="home-block">
+  <h2 class="block-title">What the research says</h2>
+  <div class="stat-grid">
+    {{- range . }}
+    <div class="stat-card">
+      <span class="stat-number">{{ .number }}</span>
+      <p>{{ .text | markdownify }}</p>
+      <span class="stat-source">{{ .source }}</span>
+    </div>
+    {{- end }}
+  </div>
+  <p class="block-more"><a href="{{ "tech/research-at-a-glance/" | relURL }}">See all the numbers in our research infographic &rarr;</a></p>
+</section>
+{{- end }}
+
+{{- with .Params.gallery }}
+<section class="home-block">
+  <h2 class="block-title">Inside the program</h2>
+  <div class="gallery">
+    {{- range . }}
+    <figure>
+      <img loading="lazy" src="{{ .src | relURL }}" alt="{{ .alt }}">
+      <figcaption>{{ .caption }}</figcaption>
+    </figure>
+    {{- end }}
+  </div>
+</section>
+{{- end }}
+
+<section class="home-block">
+  <h2 class="block-title">Explore the site</h2>
+  <div class="section-cards">
+    {{- range (slice "usage" "tech" "posts" "signup") }}
+    {{- with site.GetPage . }}
+    <a class="section-card" href="{{ .RelPermalink }}">
+      <h3>{{ .Title }}</h3>
+      <p>{{ .Description }}</p>
+      <span class="section-count">{{ len .RegularPages }} pages</span>
+    </a>
+    {{- end }}
+    {{- end }}
+  </div>
+</section>
+
+{{- $posts := where site.RegularPages "Section" "posts" }}
+{{- with first 3 $posts }}
+<section class="home-block">
+  <h2 class="block-title">Latest articles</h2>
+  {{- range . }}
+  <article class="post-entry">
+    <header class="entry-header"><h2>{{ .Title }}</h2></header>
+    <div class="entry-content"><p>{{ .Summary | plainify | truncate 180 }}</p></div>
+    <footer class="entry-footer">{{ partial "post_meta.html" . }}</footer>
+    <a class="entry-link" aria-label="read {{ .Title | plainify }}" href="{{ .RelPermalink }}"></a>
+  </article>
+  {{- end }}
+</section>
+{{- end }}
+
+<section class="cta-band">
+  <h2>Ready to bring it to your school?</h2>
+  <p>Start with a free 60-day classroom pilot, then pick the license that fits your building or district.</p>
+  <a class="btn btn-primary" href="{{ "signup/pricing/" | relURL }}">Purchase or start a pilot</a>
+</section>
+
+{{- end }}

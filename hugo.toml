@@ -1,13 +1,66 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
-title = 'Group One'
+title = 'AI + Education Program'
 theme = 'papermod'
+
+[pagination]
+  pagerSize = 6
+
+# Three aggregation schemes: tags, authors, and the menus below.
+[taxonomies]
+  tag = 'tags'
+  author = 'authors'
+
+[params]
+  description = 'An adaptive AI learning program for K-12 classrooms, built to support teachers and keep learning honest.'
+  mainSections = ['posts']
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = false
+  disableSpecial1stPost = true
+  # Where the "Request a quote" buttons send people. Replace with the client's real sales address.
+  purchaseEmail = 'sales@aiedprogram.example'
+
 [menus]
   [[menus.main]]
     name = 'Home'
     pageRef = '/'
     weight = 10
   [[menus.main]]
+    name = 'Usage'
+    pageRef = '/usage'
+    weight = 20
+  [[menus.main]]
+    name = 'Tech'
+    pageRef = '/tech'
+    weight = 30
+  [[menus.main]]
+    name = 'Articles'
+    pageRef = '/posts'
+    weight = 40
+  [[menus.main]]
+    name = 'Sign Up'
+    pageRef = '/signup'
+    weight = 50
+
+  [[menus.footer]]
     name = 'Tags'
     pageRef = '/tags'
+    weight = 10
+  [[menus.footer]]
+    name = 'Authors'
+    pageRef = '/authors'
     weight = 20
+  [[menus.footer]]
+    name = 'Pricing'
+    pageRef = '/signup/pricing'
+    weight = 30
+  [[menus.footer]]
+    name = 'Licensing'
+    pageRef = '/signup/licensing'
+    weight = 40
+
+[markup.goldmark.renderer]
+  unsafe = true

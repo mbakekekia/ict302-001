@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="800" height="1100" fill="#ffffff"/>
+  <rect width="800" height="150" fill="#154a85"/>
+  <text x="400" y="70" text-anchor="middle" font-size="36" font-weight="800" fill="#ffffff">AI in education: the numbers</text>
+  <text x="400" y="112" text-anchor="middle" font-size="18" fill="#dbe8f7">What the research says about tutoring, students and teachers</text>
+
+  <!-- section 1: tutoring effect sizes -->
+  <text x="60" y="210" font-size="22" font-weight="800" fill="#1e2a3a">Tutoring works, and so do good tutoring systems</text>
+  <text x="60" y="238" font-size="15" fill="#5b6b80">Average learning gain compared with no tutoring (effect size, VanLehn 2011)</text>
+  <g font-size="16" fill="#1e2a3a">
+    <text x="60" y="290">Human tutor</text>
+    <rect x="260" y="270" width="474" height="30" rx="6" fill="#1d5fa8"/>
+    <text x="744" y="292" font-weight="800" fill="#1d5fa8" text-anchor="end" dx="40">0.79</text>
+    <text x="60" y="340">Intelligent tutoring</text>
+    <rect x="260" y="320" width="456" height="30" rx="6" fill="#2f9e6a"/>
+    <text x="756" y="342" font-weight="800" fill="#2f9e6a" text-anchor="end">0.76</text>
+  </g>
+  <text x="60" y="384" font-size="15" fill="#5b6b80">Step-by-step computer tutors came close to one-on-one human tutoring.</text>
+
+  <!-- section 2: teens -->
+  <line x1="60" y1="420" x2="740" y2="420" stroke="#d9e2ee" stroke-width="2"/>
+  <text x="60" y="470" font-size="22" font-weight="800" fill="#1e2a3a">Students are already using AI</text>
+  <text x="60" y="498" font-size="15" fill="#5b6b80">US teens (ages 13 to 17) who used ChatGPT for schoolwork, Pew Research Center</text>
+  <g>
+    <rect x="60" y="520" width="320" height="150" rx="14" fill="#e8f0fa"/>
+    <text x="220" y="600" text-anchor="middle" font-size="64" font-weight="800" fill="#7f9cc0">13%</text>
+    <text x="220" y="644" text-anchor="middle" font-size="18" fill="#5b6b80">in 2023</text>
+    <text x="400" y="606" text-anchor="middle" font-size="40" fill="#1d5fa8">&#8594;</text>
+    <rect x="420" y="520" width="320" height="150" rx="14" fill="#1d5fa8"/>
+    <text x="580" y="600" text-anchor="middle" font-size="64" font-weight="800" fill="#ffffff">26%</text>
+    <text x="580" y="644" text-anchor="middle" font-size="18" fill="#dbe8f7">in 2024</text>
+  </g>
+  <text x="60" y="708" font-size="15" fill="#5b6b80">Teens were far more comfortable using it to research a topic (54%) than to write essays (18%).</text>
+
+  <!-- section 3: teachers -->
+  <line x1="60" y1="744" x2="740" y2="744" stroke="#d9e2ee" stroke-width="2"/>
+  <text x="60" y="794" font-size="22" font-weight="800" fill="#1e2a3a">Teachers are getting time back</text>
+  <text x="60" y="822" font-size="15" fill="#5b6b80">Gallup and Walton Family Foundation survey of 2,232 US public school teachers, 2025</text>
+  <g>
+    <circle cx="200" cy="930" r="80" fill="#e9f7ef"/>
+    <circle cx="200" cy="930" r="80" fill="none" stroke="#2f9e6a" stroke-width="18" stroke-dasharray="302 503" transform="rotate(-90 200 930)"/>
+    <text x="200" y="944" text-anchor="middle" font-size="40" font-weight="800" fill="#2f9e6a">60%</text>
+    <text x="200" y="1044" text-anchor="middle" font-size="16" fill="#1e2a3a">used AI tools for work</text>
+    <text x="200" y="1066" text-anchor="middle" font-size="16" fill="#1e2a3a">during the school year</text>
+
+    <rect x="400" y="850" width="340" height="160" rx="14" fill="#fff6ee"/>
+    <text x="570" y="932" text-anchor="middle" font-size="56" font-weight="800" fill="#e8833a">~6 hours</text>
+    <text x="570" y="972" text-anchor="middle" font-size="16" fill="#7a4a1f">saved per week by teachers</text>
+    <text x="570" y="994" text-anchor="middle" font-size="16" fill="#7a4a1f">who use AI weekly</text>
+  </g>
+</svg>

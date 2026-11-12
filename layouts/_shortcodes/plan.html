@@ -1,0 +1,11 @@
+{{- /* One pricing card. Wrap several in {{< plans >}}. Usage:
+{{< plan name="Classroom" price="$6" unit="per student / year" featured="true" >}}
+- feature
+{{< /plan >}} */ -}}
+<div class="plan-card{{ if eq (.Get "featured") "true" }} featured{{ end }}">
+  {{- if eq (.Get "featured") "true" }}<span class="plan-badge">Most popular</span>{{ end }}
+  <h3>{{ .Get "name" }}</h3>
+  <p class="plan-price">{{ .Get "price" }}<span>{{ .Get "unit" }}</span></p>
+  <div class="plan-features">{{ .Inner | markdownify }}</div>
+  <a class="btn {{ if eq (.Get "featured") "true" }}btn-primary{{ else }}btn-ghost{{ end }}" href="mailto:{{ site.Params.purchaseEmail }}?subject={{ printf "Purchase inquiry: %s plan" (.Get "name") | urlquery }}">{{ .Get "cta" | default "Request a quote" }}</a>
+</div>
