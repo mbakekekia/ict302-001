@@ -6,7 +6,7 @@ authors = ['Elizabeth']
 tags = ['adaptive learning', 'K-12', 'curriculum']
 +++
 
-"Adaptive learning" gets used a lot in education technology, and it does not always mean much. Here is what it means in this program, and why it matters at every grade level.
+"Adaptive learning" gets used a lot in education technology, and it does not always mean much. Here is what it means in AI Innovation Lab K-12, and why it matters at every grade level.
 
 ## The basic idea
 
@@ -14,7 +14,7 @@ In a traditional worksheet, every student gets the same twenty problems in the s
 
 An adaptive program changes the next problem based on the last answer. Get a few right and the problems get harder. Make the same mistake twice and the program stops, figures out which step is causing trouble, and shows a worked example of just that step. The goal is to keep every student working at the edge of what they can do, where learning actually happens.
 
-{{< figure src="/images/infographic-adaptive-loop.svg" alt="Infographic of the four-step adaptive learning loop: check, diagnose, adjust, explain." caption="The adaptive loop runs after every answer. See the full infographic on the [Usage page](/usage/adaptive-learning-loop/)." >}}
+{{< figure src="/images/infographic-adaptive-loop.svg" alt="Infographic of the four-step adaptive learning loop: check, diagnose, adjust, explain." caption="The adaptive loop runs after every answer. See it in action in [AI Learning Games](/how-it-works/learning-games/)." >}}
 
 ## What it looks like at each grade
 

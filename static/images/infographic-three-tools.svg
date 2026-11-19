@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1040" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10z" fill="#9fb1c7"/>
+    </marker>
+  </defs>
+  <rect width="800" height="1040" fill="#ffffff"/>
+  <rect width="800" height="160" fill="#1d5fa8"/>
+  <text x="400" y="70" text-anchor="middle" font-size="36" font-weight="800" fill="#ffffff">Practice it. Test it. Prove it.</text>
+  <text x="400" y="112" text-anchor="middle" font-size="18" fill="#dbe8f7">How the three AI tools in AI Innovation Lab K-12 work together</text>
+
+  <!-- tool 1 -->
+  <rect x="60" y="200" width="680" height="200" rx="18" fill="#e8f0fa"/>
+  <circle cx="140" cy="300" r="52" fill="#1d5fa8"/>
+  <text x="140" y="316" text-anchor="middle" font-size="44" font-weight="800" fill="#ffffff">1</text>
+  <text x="220" y="250" font-size="26" font-weight="800" fill="#1d5fa8">AI Learning Games</text>
+  <text x="220" y="282" font-size="17" fill="#1e2a3a">Students practice skills in short challenges that</text>
+  <text x="220" y="306" font-size="17" fill="#1e2a3a">get harder or easier based on how they are doing.</text>
+  <text x="220" y="342" font-size="15" fill="#3a4757" font-weight="700">The AI gives hints, never the answer.</text>
+  <text x="220" y="370" font-size="14" fill="#5b6b80">Builds: fluency and confidence</text>
+
+  <line x1="400" y1="404" x2="400" y2="436" stroke="#9fb1c7" stroke-width="4" marker-end="url(#a)"/>
+
+  <!-- tool 2 -->
+  <rect x="60" y="440" width="680" height="200" rx="18" fill="#e9f7ef"/>
+  <circle cx="140" cy="540" r="52" fill="#2f6b5a"/>
+  <text x="140" y="556" text-anchor="middle" font-size="44" font-weight="800" fill="#ffffff">2</text>
+  <text x="220" y="490" font-size="26" font-weight="800" fill="#2f6b5a">Project Testing Lab</text>
+  <text x="220" y="522" font-size="17" fill="#1e2a3a">Students turn their own ideas into predictions and</text>
+  <text x="220" y="546" font-size="17" fill="#1e2a3a">run simulations to see if they hold up.</text>
+  <text x="220" y="582" font-size="15" fill="#3a4757" font-weight="700">The AI asks what the results mean.</text>
+  <text x="220" y="610" font-size="14" fill="#5b6b80">Builds: creativity and problem solving</text>
+
+  <line x1="400" y1="644" x2="400" y2="676" stroke="#9fb1c7" stroke-width="4" marker-end="url(#a)"/>
+
+  <!-- tool 3 -->
+  <rect x="60" y="680" width="680" height="200" rx="18" fill="#f1ecf9"/>
+  <circle cx="140" cy="780" r="52" fill="#5a46a0"/>
+  <text x="140" y="796" text-anchor="middle" font-size="44" font-weight="800" fill="#ffffff">3</text>
+  <text x="220" y="730" font-size="26" font-weight="800" fill="#5a46a0">Evidence and Explanation Coach</text>
+  <text x="220" y="762" font-size="17" fill="#1e2a3a">Students check claims against teacher-approved</text>
+  <text x="220" y="786" font-size="17" fill="#1e2a3a">sources and explain their reasoning in writing.</text>
+  <text x="220" y="822" font-size="15" fill="#3a4757" font-weight="700">The AI flags missing or unreliable evidence.</text>
+  <text x="220" y="850" font-size="14" fill="#5b6b80">Builds: critical thinking and honest work</text>
+
+  <!-- teacher bar -->
+  <rect x="60" y="912" width="680" height="96" rx="18" fill="#fff6ee" stroke="#f0c39a" stroke-width="2"/>
+  <text x="400" y="952" text-anchor="middle" font-size="20" font-weight="800" fill="#c2621c">The teacher stays in charge of all three</text>
+  <text x="400" y="982" text-anchor="middle" font-size="16" fill="#7a4a1f">Set difficulty, review AI hints, approve resources, and decide when AI is on.</text>
+</svg>

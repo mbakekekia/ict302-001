@@ -7,7 +7,7 @@
   <circle cx="48" cy="46" r="6" fill="#ffffff" opacity=".6"/>
   <circle cx="68" cy="46" r="6" fill="#ffffff" opacity=".6"/>
   <circle cx="88" cy="46" r="6" fill="#ffffff" opacity=".6"/>
-  <text x="112" y="51" fill="#ffffff" font-size="15" font-weight="700">AI + Education Program</text>
+  <text x="112" y="51" fill="#ffffff" font-size="15" font-weight="700">AI Innovation Lab K-12</text>
   <text x="520" y="51" fill="#ffffff" font-size="13">Grade 7 Math</text>
   <!-- sidebar -->
   <rect x="24" y="68" width="150" height="348" fill="#eef3fa"/>

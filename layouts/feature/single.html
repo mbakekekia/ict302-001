@@ -1,0 +1,51 @@
+{{- define "main" }}
+{{/* Layout for the "feature" content type: one of the platform's three AI tools.
+     Front matter gives a screenshot, a one-line summary and "at a glance" steps. */}}
+<article class="post-single feature-page">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <p class="type-label">Feature {{ .Params.featureNumber }} of 3</p>
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{- with .Description }}<div class="post-description">{{ . }}</div>{{ end }}
+    <div class="post-meta">{{ partial "post_meta.html" . }}</div>
+  </header>
+
+  {{- with .Params.screenshot }}
+  <figure class="feature-shot">
+    <img src="{{ .src | relURL }}" alt="{{ .alt }}">
+    {{- with .caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+  </figure>
+  {{- end }}
+
+  {{- with .Params.steps }}
+  <ol class="steps">
+    {{- range . }}
+    <li><strong>{{ .title }}</strong><span>{{ .text }}</span></li>
+    {{- end }}
+  </ol>
+  {{- end }}
+
+  <div class="post-content md-content">
+    {{- partial "anchored_headings.html" .Content -}}
+  </div>
+
+  {{- /* Links to the other two tools in the same section */}}
+  {{- $others := where (where site.RegularPages "Type" "feature") "Permalink" "!=" .Permalink }}
+  {{- with $others }}
+  <nav class="feature-next" aria-label="Other tools">
+    <p class="feature-next-title">The other tools</p>
+    {{- range sort . "Params.featureNumber" }}
+    <a href="{{ .RelPermalink }}">{{ .Title }} &rarr;</a>
+    {{- end }}
+  </nav>
+  {{- end }}
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      {{- range ($.GetTerms "tags") }}
+      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+  </footer>
+</article>
+{{- end }}

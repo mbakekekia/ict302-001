@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1160" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="800" height="1160" fill="#ffffff"/>
+  <rect width="800" height="150" fill="#154a85"/>
+  <text x="400" y="70" text-anchor="middle" font-size="36" font-weight="800" fill="#ffffff">AI in K-12: the numbers</text>
+  <text x="400" y="112" text-anchor="middle" font-size="18" fill="#dbe8f7">Why schools need AI that teaches instead of answers</text>
+
+  <!-- 1: students -->
+  <text x="60" y="210" font-size="22" font-weight="800" fill="#1e2a3a">Almost every high schooler is using AI</text>
+  <text x="60" y="238" font-size="15" fill="#5b6b80">High school students using generative AI for schoolwork (College Board, 2025)</text>
+  <g>
+    <rect x="60" y="262" width="680" height="40" rx="8" fill="#e8f0fa"/>
+    <rect x="60" y="262" width="537" height="40" rx="8" fill="#7f9cc0"/>
+    <text x="72" y="289" font-size="16" font-weight="700" fill="#ffffff">January 2025</text>
+    <text x="587" y="289" font-size="18" font-weight="800" fill="#ffffff" text-anchor="end">79%</text>
+    <rect x="60" y="314" width="680" height="40" rx="8" fill="#e8f0fa"/>
+    <rect x="60" y="314" width="571" height="40" rx="8" fill="#1d5fa8"/>
+    <text x="72" y="341" font-size="16" font-weight="700" fill="#ffffff">May 2025</text>
+    <text x="621" y="341" font-size="18" font-weight="800" fill="#ffffff" text-anchor="end">84%</text>
+  </g>
+
+  <!-- 2: Bastani -->
+  <line x1="60" y1="392" x2="740" y2="392" stroke="#d9e2ee" stroke-width="2"/>
+  <text x="60" y="442" font-size="22" font-weight="800" fill="#1e2a3a">Answers help today. Hints help on test day.</text>
+  <text x="60" y="470" font-size="15" fill="#5b6b80">Nearly 1,000 high school math students, compared with students who had no AI (Bastani et al., 2025)</text>
+  <g font-size="15" fill="#1e2a3a">
+    <text x="250" y="512" text-anchor="middle" font-weight="700">During practice, with AI</text>
+    <text x="580" y="512" text-anchor="middle" font-weight="700">On the exam, without AI</text>
+    <text x="60" y="560" font-weight="700">AI that gives</text>
+    <text x="60" y="580" font-weight="700">answers</text>
+    <rect x="170" y="540" width="160" height="48" rx="10" fill="#e8f0fa"/>
+    <text x="250" y="572" text-anchor="middle" font-size="24" font-weight="800" fill="#1d5fa8">+48%</text>
+    <rect x="500" y="540" width="160" height="48" rx="10" fill="#fde4d0"/>
+    <text x="580" y="572" text-anchor="middle" font-size="24" font-weight="800" fill="#c2621c">-17%</text>
+    <text x="60" y="630" font-weight="700">AI tutor that</text>
+    <text x="60" y="650" font-weight="700">gives hints</text>
+    <rect x="170" y="610" width="160" height="48" rx="10" fill="#1d5fa8"/>
+    <text x="250" y="642" text-anchor="middle" font-size="24" font-weight="800" fill="#ffffff">+127%</text>
+    <rect x="500" y="610" width="160" height="48" rx="10" fill="#e9f7ef"/>
+    <text x="580" y="642" text-anchor="middle" font-size="20" font-weight="800" fill="#2f9e6a">about even</text>
+  </g>
+  <text x="60" y="694" font-size="15" fill="#5b6b80">Students who leaned on answers learned less. A tutor built to give hints avoided that harm.</text>
+
+  <!-- 3: teachers -->
+  <line x1="60" y1="728" x2="740" y2="728" stroke="#d9e2ee" stroke-width="2"/>
+  <text x="60" y="778" font-size="22" font-weight="800" fill="#1e2a3a">Teachers worry, and trust is slipping</text>
+  <g>
+    <rect x="60" y="806" width="210" height="190" rx="14" fill="#fff6ee"/>
+    <text x="165" y="876" text-anchor="middle" font-size="52" font-weight="800" fill="#e8833a">80%+</text>
+    <text x="165" y="912" text-anchor="middle" font-size="14" fill="#7a4a1f">of AP teachers say AI</text>
+    <text x="165" y="932" text-anchor="middle" font-size="14" fill="#7a4a1f">makes students overly</text>
+    <text x="165" y="952" text-anchor="middle" font-size="14" fill="#7a4a1f">dependent and hurts</text>
+    <text x="165" y="972" text-anchor="middle" font-size="14" fill="#7a4a1f">critical thinking</text>
+
+    <rect x="295" y="806" width="210" height="190" rx="14" fill="#e8f0fa"/>
+    <text x="400" y="876" text-anchor="middle" font-size="52" font-weight="800" fill="#1d5fa8">52%</text>
+    <text x="400" y="912" text-anchor="middle" font-size="14" fill="#1e3a5f">of teachers say AI has</text>
+    <text x="400" y="932" text-anchor="middle" font-size="14" fill="#1e3a5f">made them more distrustful</text>
+    <text x="400" y="952" text-anchor="middle" font-size="14" fill="#1e3a5f">that student work is</text>
+    <text x="400" y="972" text-anchor="middle" font-size="14" fill="#1e3a5f">really the student's</text>
+
+    <rect x="530" y="806" width="210" height="190" rx="14" fill="#f1ecf9"/>
+    <text x="635" y="876" text-anchor="middle" font-size="52" font-weight="800" fill="#5a46a0">68%</text>
+    <text x="635" y="912" text-anchor="middle" font-size="14" fill="#3d2f73">of teachers regularly</text>
+    <text x="635" y="932" text-anchor="middle" font-size="14" fill="#3d2f73">use AI detection tools,</text>
+    <text x="635" y="952" text-anchor="middle" font-size="14" fill="#3d2f73">which can wrongly flag</text>
+    <text x="635" y="972" text-anchor="middle" font-size="14" fill="#3d2f73">honest students</text>
+  </g>
+  <text x="60" y="1040" font-size="14" fill="#5b6b80">Sources: College Board (2025); Adair, Congiusta, Howell et al., College Board Research (2025);</text>
+  <text x="60" y="1062" font-size="14" fill="#5b6b80">Bastani et al., PNAS (2025); Center for Democracy and Technology (2024).</text>
+  <rect x="60" y="1090" width="680" height="40" rx="10" fill="#1d5fa8"/>
+  <text x="400" y="1116" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">AI Innovation Lab K-12: hints instead of answers, evidence instead of guesses</text>
+</svg>

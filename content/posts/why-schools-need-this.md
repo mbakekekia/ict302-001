@@ -16,7 +16,7 @@ Teachers face the opposite problem. A classroom of 28 students with 28 different
 
 ## What a school-built tool does differently
 
-The AI + Education Program was built around one idea: AI should help students do the thinking, not do it for them. The tutor gives hints, asks questions, and requires students to explain their reasoning. It works inside the lesson the teacher chose, so it stays on topic. And it reports what it sees back to the teacher, who stays in charge.
+AI Innovation Lab K-12 was built around one idea: AI should help students do the thinking, not do it for them. The tutor gives hints, asks questions, and requires students to explain their reasoning. It works inside the lesson the teacher chose, so it stays on topic. And it reports what it sees back to the teacher, who stays in charge.
 
 That combination solves both problems at once. Students get help when they are stuck, at the level they need. Teachers get a clear picture of who needs what, and the time to act on it.
 
@@ -24,4 +24,4 @@ That combination solves both problems at once. Students get help when they are s
 
 Research on tutoring systems has been building for decades. Studies have found that well-designed computer tutors that give step-by-step feedback can come close to the learning gains of one-on-one human tutoring. What is new is that language models can now write hints and questions in plain, natural language, for any problem, at any grade level. The pieces are finally in place to give every student something close to a personal tutor.
 
-Schools do not have to choose between banning AI and giving up on it. They can choose a tool designed for learning, with the guardrails built in. Read about [how the program runs in a real class period](/usage/how-it-works/), or see [what the research says](/tech/pros-of-ai-in-education/).
+Schools do not have to choose between banning AI and giving up on it. They can choose a tool designed for learning, with the guardrails built in. See [how the three AI tools work](/how-it-works/), or read [what the research says](/research/).

@@ -26,7 +26,7 @@ A 2025 Gallup and Walton Family Foundation survey of more than 2,000 public scho
 
 Putting this research together, three principles stand out. First, AI tutoring should work step by step and ask for reasoning, not just check answers. Second, schools should give students a safe, school-approved tool, because students will use AI either way. Third, the biggest benefit for teachers comes from automating the routine work, like grouping students and writing reports, so they can spend more time teaching.
 
-Those three principles are the foundation of the AI + Education Program. See them summarized visually in our [research infographic](/tech/research-at-a-glance/).
+Those three principles are the foundation of AI Innovation Lab K-12. For more recent findings, see [AI in K-12: The Numbers](/research/ai-k12-numbers/).
 
 ## Sources
 

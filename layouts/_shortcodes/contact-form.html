@@ -1,0 +1,43 @@
+{{- /* Request-information form. With no form service connected, it opens the visitor's email app
+     addressed to params.purchaseEmail. To use a real form service (Formspree, Netlify Forms, etc.),
+     set params.contactFormAction in hugo.toml to that service's URL. */ -}}
+{{- $action := site.Params.contactFormAction | default (printf "mailto:%s" site.Params.purchaseEmail) }}
+<form class="contact-form" action="{{ $action }}" method="post"{{ if hasPrefix $action "mailto:" }} enctype="text/plain"{{ end }}>
+  <div class="form-row">
+    <label>Your name<input type="text" name="name" autocomplete="name" required></label>
+    <label>Work email<input type="email" name="email" autocomplete="email" required></label>
+  </div>
+  <div class="form-row">
+    <label>School or district<input type="text" name="school" required></label>
+    <label>Your role
+      <select name="role">
+        <option>Teacher</option>
+        <option>Principal or school leader</option>
+        <option>District administrator</option>
+        <option>Technology or IT staff</option>
+        <option>Other</option>
+      </select>
+    </label>
+  </div>
+  <div class="form-row">
+    <label>Grade levels
+      <select name="grades">
+        <option>K to 2</option>
+        <option>3 to 5</option>
+        <option>6 to 8</option>
+        <option>9 to 12</option>
+        <option>Several grade bands</option>
+      </select>
+    </label>
+    <label>I'm interested in
+      <select name="interest">
+        <option>A free classroom pilot</option>
+        <option>A live demo</option>
+        <option>A price quote</option>
+        <option>Licensing and privacy documents</option>
+      </select>
+    </label>
+  </div>
+  <label>Anything else we should know?<textarea name="message" rows="4"></textarea></label>
+  <button class="btn btn-primary" type="submit">Request information</button>
+</form>

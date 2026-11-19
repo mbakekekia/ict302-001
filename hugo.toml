@@ -1,27 +1,30 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
-title = 'AI + Education Program'
+title = 'AI Innovation Lab K-12'
 theme = 'papermod'
 
 [pagination]
   pagerSize = 6
 
-# Three aggregation schemes: tags, authors, and the menus below.
+# Four aggregation schemes: tags and authors (taxonomies), plus the main and footer menus below.
 [taxonomies]
   tag = 'tags'
   author = 'authors'
 
 [params]
-  description = 'An adaptive AI learning program for K-12 classrooms, built to support teachers and keep learning honest.'
-  mainSections = ['posts']
+  description = 'An innovative educational platform that uses artificial intelligence to encourage creativity, strengthen critical thinking, and support independent learning.'
+  mainSections = ['research']
   defaultTheme = 'auto'
   ShowReadingTime = true
   ShowBreadCrumbs = true
   ShowPostNavLinks = true
   ShowCodeCopyButtons = false
   disableSpecial1stPost = true
-  # Where the "Request a quote" buttons send people. Replace with the client's real sales address.
-  purchaseEmail = 'sales@aiedprogram.example'
+  # Where the contact form and "Request a quote" buttons send messages. Replace with a real address.
+  purchaseEmail = 'hello@aiinnovationlab.example'
+
+[params.footer]
+  text = 'AI Innovation Lab K-12 is a product concept created for an ICT 302 class project at the University of Kentucky.'
 
 [menus]
   [[menus.main]]
@@ -29,37 +32,41 @@ theme = 'papermod'
     pageRef = '/'
     weight = 10
   [[menus.main]]
-    name = 'Usage'
-    pageRef = '/usage'
+    name = 'How It Works'
+    pageRef = '/how-it-works'
     weight = 20
   [[menus.main]]
-    name = 'Tech'
-    pageRef = '/tech'
+    name = 'For Educators'
+    pageRef = '/educators'
     weight = 30
+  [[menus.main]]
+    name = 'Research & Resources'
+    pageRef = '/research'
+    weight = 40
   [[menus.main]]
     name = 'Articles'
     pageRef = '/posts'
-    weight = 40
+    weight = 45
   [[menus.main]]
-    name = 'Sign Up'
-    pageRef = '/signup'
+    name = 'Get Started'
+    pageRef = '/get-started'
     weight = 50
 
   [[menus.footer]]
+    name = 'Pricing'
+    pageRef = '/get-started/pricing'
+    weight = 10
+  [[menus.footer]]
+    name = 'Contact'
+    pageRef = '/get-started/contact'
+    weight = 20
+  [[menus.footer]]
     name = 'Tags'
     pageRef = '/tags'
-    weight = 10
+    weight = 30
   [[menus.footer]]
     name = 'Authors'
     pageRef = '/authors'
-    weight = 20
-  [[menus.footer]]
-    name = 'Pricing'
-    pageRef = '/signup/pricing'
-    weight = 30
-  [[menus.footer]]
-    name = 'Licensing'
-    pageRef = '/signup/licensing'
     weight = 40
 
 [markup.goldmark.renderer]

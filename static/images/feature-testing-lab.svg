@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f4f7fb"/>
+  <rect x="24" y="24" width="592" height="392" rx="14" fill="#ffffff" stroke="#d9e2ee"/>
+  <rect x="24" y="24" width="592" height="44" rx="14" fill="#2f6b5a"/>
+  <rect x="24" y="54" width="592" height="14" fill="#2f6b5a"/>
+  <text x="44" y="51" fill="#ffffff" font-size="15" font-weight="700">Project Testing Lab</text>
+  <text x="596" y="51" fill="#d6ece4" font-size="13" text-anchor="end">Science · Grade 7</text>
+
+  <!-- hypothesis -->
+  <text x="44" y="96" font-size="12" fill="#5b6b80" font-weight="700">MY IDEA</text>
+  <rect x="44" y="104" width="552" height="44" rx="8" fill="#e9f7ef"/>
+  <text x="60" y="131" font-size="14" fill="#1e2a3a">"If we plant more trees around the playground, it will stay cooler at recess."</text>
+
+  <!-- variables -->
+  <text x="44" y="178" font-size="12" fill="#5b6b80" font-weight="700">CHANGE THE VARIABLES</text>
+  <g font-size="13" fill="#1e2a3a">
+    <text x="44" y="200">Number of trees</text>
+    <line x1="44" y1="216" x2="244" y2="216" stroke="#d9e2ee" stroke-width="6" stroke-linecap="round"/>
+    <line x1="44" y1="216" x2="164" y2="216" stroke="#2f9e6a" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="164" cy="216" r="9" fill="#ffffff" stroke="#2f9e6a" stroke-width="3"/>
+    <text x="252" y="220" font-weight="700">12</text>
+    <text x="44" y="246">Time of day</text>
+    <line x1="44" y1="262" x2="244" y2="262" stroke="#d9e2ee" stroke-width="6" stroke-linecap="round"/>
+    <line x1="44" y1="262" x2="104" y2="262" stroke="#2f9e6a" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="104" cy="262" r="9" fill="#ffffff" stroke="#2f9e6a" stroke-width="3"/>
+    <text x="252" y="266" font-weight="700">1 pm</text>
+    <text x="44" y="296">Ground surface</text>
+    <rect x="44" y="304" width="96" height="26" rx="13" fill="#2f6b5a"/><text x="92" y="321" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="700">Asphalt</text>
+    <rect x="148" y="304" width="96" height="26" rx="13" fill="#ffffff" stroke="#9fb1c7"/><text x="196" y="321" text-anchor="middle" font-size="12">Grass</text>
+  </g>
+
+  <!-- chart -->
+  <rect x="320" y="170" width="276" height="170" rx="10" fill="#f4f7fb"/>
+  <text x="334" y="192" font-size="12" fill="#5b6b80" font-weight="700">SIMULATED GROUND TEMPERATURE</text>
+  <line x1="350" y1="318" x2="582" y2="318" stroke="#c9d6e6"/>
+  <line x1="350" y1="206" x2="350" y2="318" stroke="#c9d6e6"/>
+  <polyline points="356,226 400,236 444,252 488,270 532,280 576,284" fill="none" stroke="#e8833a" stroke-width="3"/>
+  <circle cx="576" cy="284" r="4" fill="#e8833a"/>
+  <g font-size="11" fill="#5b6b80">
+    <text x="350" y="334">0 trees</text>
+    <text x="582" y="334" text-anchor="end">20 trees</text>
+    <text x="344" y="214" text-anchor="end">hot</text>
+    <text x="344" y="316" text-anchor="end">cool</text>
+  </g>
+
+  <!-- AI explanation -->
+  <rect x="44" y="352" width="552" height="52" rx="10" fill="#fff6ee" stroke="#f0c39a"/>
+  <circle cx="70" cy="378" r="13" fill="#e8833a"/>
+  <text x="70" y="383" font-size="12" fill="#ffffff" font-weight="700" text-anchor="middle">AI</text>
+  <text x="92" y="374" font-size="13" fill="#5c3a19">Your prediction held up, but the cooling slowed after about 12 trees.</text>
+  <text x="92" y="393" font-size="13" fill="#5c3a19">What do you think caused that? Write your explanation before running it again.</text>
+</svg>

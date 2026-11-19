@@ -1,4 +1,4 @@
-/* Custom styles for the AI + Education Program site.
+/* Custom styles for the AI Innovation Lab K-12 site.
    PaperMod loads every file in assets/css/extended/ after its own CSS,
    so these rules customize the theme without editing the theme folder. */
 
@@ -75,7 +75,8 @@
 }
 .stat-number { display: block; font-size: 34px; font-weight: 800; color: var(--accent); line-height: 1.1; margin-bottom: 8px; }
 .stat-card p { font-size: 15px; color: var(--content); margin-bottom: 10px; }
-.stat-source { font-size: 13px; color: var(--secondary); }
+.stat-source { font-size: 13px; color: var(--secondary); text-decoration: underline; text-underline-offset: 3px; }
+.stat-source:hover { color: var(--accent); }
 
 .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .gallery figure { margin: 0; }
@@ -161,4 +162,80 @@
   .hero { grid-template-columns: 1fr; }
   .hero h1 { font-size: 32px; }
   .stat-grid, .gallery, .plan-grid, .section-cards { grid-template-columns: 1fr; }
+}
+
+/* Home: three feature cards */
+.feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.1s ease, border-color 0.15s ease;
+}
+.feature-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+.feature-card img { width: 100%; height: auto; border-bottom: 1px solid var(--border); }
+.feature-card-body { padding: 16px; display: flex; flex-direction: column; flex-grow: 1; }
+.feature-card h3 { font-size: 18px; margin-bottom: 6px; }
+.feature-card p { font-size: 15px; color: var(--secondary); flex-grow: 1; margin-bottom: 10px; }
+.card-more { font-size: 14px; font-weight: 600; color: var(--accent); }
+
+/* Home: why section */
+.block-intro { color: var(--secondary); margin: -6px 0 16px; }
+.problem-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+.problem-card {
+  border-left: 4px solid var(--accent-2);
+  background: var(--entry);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 14px 16px;
+}
+.problem-card h3 { font-size: 17px; margin-bottom: 4px; }
+.problem-card p { font-size: 15px; color: var(--secondary); margin: 0; }
+
+/* Feature content type */
+.feature-shot { margin: 24px 0 8px; }
+.feature-shot img { width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--border); }
+.feature-shot figcaption { text-align: center; font-size: 13px; color: var(--secondary); margin-top: 6px; }
+.steps { list-style: none; counter-reset: step; padding: 0; margin: 24px 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.steps li { counter-increment: step; background: var(--accent-soft); border-radius: 10px; padding: 14px; font-size: 15px; }
+.steps li::before { content: counter(step); display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--accent); color: var(--theme); font-weight: 700; font-size: 14px; margin-bottom: 8px; }
+.steps strong { display: block; margin-bottom: 2px; }
+.steps span { color: var(--secondary); }
+.feature-next { display: flex; flex-wrap: wrap; gap: 10px 20px; align-items: center; border-top: 1px solid var(--border); padding-top: 16px; margin-top: 24px; }
+.feature-next-title { font-weight: 700; margin: 0; }
+.feature-next a { color: var(--accent); font-weight: 600; }
+
+/* Numbered step list inside content (adoption steps) */
+.post-content .step-list ol { list-style: none; counter-reset: s; padding: 0; }
+.post-content .step-list li { counter-increment: s; position: relative; padding: 4px 0 14px 48px; margin: 0; }
+.post-content .step-list li::before { content: counter(s); position: absolute; left: 0; top: 2px; width: 32px; height: 32px; border-radius: 50%; background: var(--accent); color: var(--theme); display: grid; place-items: center; font-weight: 700; }
+.post-content .step-list li:not(:last-child)::after { content: ""; position: absolute; left: 15px; top: 38px; bottom: 0; width: 2px; background: var(--border); }
+
+/* Contact form */
+.contact-form { display: grid; gap: 14px; background: var(--entry); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin: 20px 0; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.contact-form label { display: grid; gap: 6px; font-size: 14px; font-weight: 600; }
+.contact-form input, .contact-form select, .contact-form textarea {
+  font: inherit; font-weight: 400; font-size: 15px;
+  padding: 9px 11px; border: 1px solid var(--tertiary); border-radius: 8px;
+  background: var(--theme); color: var(--content);
+}
+.contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.contact-form button { justify-self: start; cursor: pointer; font: inherit; font-weight: 600; }
+
+/* Proposed-model note */
+.proposed { font-size: 13px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent-2); }
+
+@media (max-width: 720px) {
+  .feature-grid, .problem-grid, .steps, .form-row { grid-template-columns: 1fr; }
+}
+
+/* Phones: let the five-item main menu wrap instead of scrolling sideways */
+@media (max-width: 720px) {
+  .nav { flex-wrap: wrap; }
+  #menu { flex-wrap: wrap; overflow-x: visible; white-space: normal; line-height: 2.2; margin-bottom: 10px; }
+  #menu li + li { margin-inline-start: 0; }
+  #menu a { font-size: 15px; margin-inline-end: 14px; }
 }

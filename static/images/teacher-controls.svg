@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f4f7fb"/>
+  <rect x="24" y="24" width="592" height="392" rx="14" fill="#ffffff" stroke="#d9e2ee"/>
+  <rect x="24" y="24" width="592" height="44" rx="14" fill="#154a85"/>
+  <rect x="24" y="54" width="592" height="14" fill="#154a85"/>
+  <text x="44" y="51" fill="#ffffff" font-size="15" font-weight="700">Teacher Controls</text>
+  <text x="596" y="51" fill="#dbe8f7" font-size="13" text-anchor="end">Period 3 · Fractions unit</text>
+
+  <!-- difficulty -->
+  <text x="44" y="98" font-size="12" fill="#5b6b80" font-weight="700">DIFFICULTY RANGE</text>
+  <line x1="44" y1="120" x2="290" y2="120" stroke="#d9e2ee" stroke-width="6" stroke-linecap="round"/>
+  <line x1="94" y1="120" x2="220" y2="120" stroke="#1d5fa8" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="94" cy="120" r="9" fill="#ffffff" stroke="#1d5fa8" stroke-width="3"/>
+  <circle cx="220" cy="120" r="9" fill="#ffffff" stroke="#1d5fa8" stroke-width="3"/>
+  <g font-size="11" fill="#5b6b80"><text x="44" y="144">Grade 2</text><text x="150" y="144">Grade 4</text><text x="252" y="144">Grade 6</text></g>
+
+  <!-- AI access -->
+  <text x="44" y="180" font-size="12" fill="#5b6b80" font-weight="700">WHEN STUDENTS CAN USE AI</text>
+  <g font-size="13" fill="#1e2a3a">
+    <text x="44" y="208">Practice and games</text>
+    <rect x="236" y="194" width="46" height="24" rx="12" fill="#2f9e6a"/><circle cx="270" cy="206" r="9" fill="#ffffff"/>
+    <text x="44" y="242">Project Testing Lab</text>
+    <rect x="236" y="228" width="46" height="24" rx="12" fill="#2f9e6a"/><circle cx="270" cy="240" r="9" fill="#ffffff"/>
+    <text x="44" y="276">Quizzes and tests</text>
+    <rect x="236" y="262" width="46" height="24" rx="12" fill="#c9d6e6"/><circle cx="248" cy="274" r="9" fill="#ffffff"/>
+    <text x="44" y="310">Homework</text>
+    <rect x="236" y="296" width="46" height="24" rx="12" fill="#2f9e6a"/><circle cx="270" cy="308" r="9" fill="#ffffff"/>
+  </g>
+
+  <!-- hint review -->
+  <text x="320" y="98" font-size="12" fill="#5b6b80" font-weight="700">REVIEW AI HINTS</text>
+  <g font-size="12">
+    <rect x="320" y="108" width="276" height="54" rx="8" fill="#e8f0fa"/>
+    <text x="332" y="128" fill="#1e2a3a">"How much of the first pizza is shaded?"</text>
+    <text x="332" y="148" fill="#2f9e6a" font-weight="700">Approved</text>
+    <rect x="320" y="170" width="276" height="54" rx="8" fill="#fff6ee"/>
+    <text x="332" y="190" fill="#1e2a3a">"The answer is 1/2."</text>
+    <text x="332" y="210" fill="#c2621c" font-weight="700">Blocked: gives away the answer</text>
+  </g>
+
+  <!-- resources -->
+  <text x="320" y="258" font-size="12" fill="#5b6b80" font-weight="700">APPROVED RESOURCES AND SIMULATIONS</text>
+  <g font-size="12" fill="#1e2a3a">
+    <rect x="320" y="268" width="276" height="30" rx="6" fill="#f4f7fb"/><text x="332" y="288">Fraction strips simulation</text><text x="584" y="288" text-anchor="end" fill="#2f9e6a" font-weight="700">On</text>
+    <rect x="320" y="304" width="276" height="30" rx="6" fill="#f4f7fb"/><text x="332" y="324">Pizza party word problems</text><text x="584" y="324" text-anchor="end" fill="#2f9e6a" font-weight="700">On</text>
+    <rect x="320" y="340" width="276" height="30" rx="6" fill="#f4f7fb"/><text x="332" y="360">Number line game</text><text x="584" y="360" text-anchor="end" fill="#5b6b80" font-weight="700">Off</text>
+  </g>
+
+  <rect x="44" y="370" width="150" height="30" rx="15" fill="#1d5fa8"/>
+  <text x="119" y="390" font-size="13" fill="#ffffff" font-weight="700" text-anchor="middle">Save settings</text>
+</svg>
